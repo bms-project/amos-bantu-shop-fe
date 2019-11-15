@@ -1,0 +1,33 @@
+<header class="affix-top" style="background-color: #0085D5"><a href="#content" class="sr-only">Skip to main content</a>
+
+  <div class="globalHeaderContainer" data-section="main-nav">
+
+    <nav class="top-nav">
+      <p class="logo-wrap">
+        <a class="logo" href="https://www.bantu-medic.com/">
+          <img alt="Bantu Medic" src="assets/img/logo-1.png"></a>
+        <a class="aglientLogoTxt"><img
+          src="assets/img/Transparent_Tagline_image.png"></a>
+      </p>
+
+      <!-- Main mnu-->
+
+      <app-main-menu [aboutCompanyMenuOptionList]="aboutCompanyMenuOptionList" 
+      [languagesMenuOptionList]="languagesMenuOptionList"></app-main-menu>
+
+      <!-- Repair options-->
+      <app-main-search-container></app-main-search-container>
+
+
+    </nav>
+
+    <app-main-navigation></app-main-navigation>
+
+  </div>
+
+
+  <!-- main-navigation-accordion -->
+  <app-main-navigation-accordion></app-main-navigation-accordion>
+
+
+</header>

@@ -1,0 +1,76 @@
+<ul class="fr_FR">
+  <li id="topRtNav1"><a class="btn dropdown-toggle" href="#"><span
+    class="toprtnav">{{aboutCompanyMenuOptionName}}</span><span class="dropDownTriangle"></span> </a>
+    <ul class="topNavSubLink" id="topRtNav1Links" style="display: none;">
+      <li *ngFor="let menuOption of aboutCompanyMenuOptionList">
+        <a href="{{menuOption.url}}">{{menuOption.name}}</a>
+      </li>
+    </ul>
+  </li>
+
+  <li><a class="btn" href="#"><span class="toprtnav">Contactez-nous</span>
+  </a></li>
+
+  <li id="topRtNav3"><a class="btn dropdown-toggle" href="#"><span
+    class="toprtnav">{{currentLanguage}}
+  </span><span class="dropDownTriangle" id="triangle3"
+                                         style="visibility: visible;"></span></a>
+    <ul class="topNavSubLink" id="topRtNav3Links" style="display: none;">
+      <!--
+      <li id="fr" class="currentLanguage">
+        <a data-link-name="Français" 
+        style="color: #ccc !important;cursor:default;text-decoration:none !important;">Français</a>
+      </li>
+      -->
+      <li *ngFor="let menuOption of languagesMenuOptionList">
+          <a href="{{menuOption.url}}">{{menuOption.name}}</a>
+      </li>
+
+    </ul>
+  </li>
+
+  <!-- Analyse -->
+  <li id="topRtNav"><a class="btn"><span class="toprtnav">Identifiez-vous</span> </a></li>
+  <!-- href="javascript:doLogin()" -->
+
+
+  <li id="topRtNav4" style="margin-lef: 0px;"><a class="btn dropdown-toggle" href="#"> <span
+    class="toprtnav">Mon				compte</span><span class="dropDownTriangle"
+                                                   id="triangle4"
+                                                   style="visibility: visible;"> </span>
+  </a>
+    <ul class="topNavSubLink topRtNav4Links" id="topRtNav4Links" style="display: none;"><p
+      class="name"><a href="#"> </a></p>
+      <div class="topRtNav4SubLinks">
+        <ul>
+          <li class="my-account"><a
+            href="#">Mon
+            compte</a></li>
+          <li class="border-line"><a
+            href="#">l’état
+            des commandes</a></li>
+          <li class="punchout mysubscriptionlink"><a
+            href="#">Mon
+            abonnement</a></li>
+          <li class=""><a
+            href="#">Mes
+            contrats de service</a></li>
+          <li class=""><a href="#">Mes
+            devis</a></li>
+          <li class=""><a href="#">Mes
+            paniers sauvegardés</a></li>
+          <li class=""><a href="#">Mon
+            catalogue</a></li>
+          <li class="my-promotions"><a
+            href="#">Mes
+            promotions</a></li>
+          <li class="punchout border-line margin-positions"><a href="javascript:doLogout();">Déconnectez-vous</a>
+          </li>
+        </ul>
+      </div>
+
+    </ul>
+  </li>
+
+
+</ul>

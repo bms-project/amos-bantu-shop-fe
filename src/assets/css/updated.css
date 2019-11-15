@@ -1,0 +1,158 @@
+
+
+.col-fifth{
+display: inline-block !important; 
+min-height: 19px;
+padding-left: 1%;  
+padding-right: 2%;   
+margin-right: -0.3em; 
+vertical-align: top;
+width: 20%;
+}
+
+
+#nav-accordion .nav-dropdown .page .column-list > ul {
+    list-style: outside none none;
+    padding: 0px 10px 0 20px;
+    border-left: 1px solid #EDEFF0;
+    width: 20%;
+    margin-top: 0px;
+}
+
+.fifth-spacing {
+/*
+  padding-left: 17px;
+  padding-right: 17px; */
+
+  padding-left: 2%;
+  padding-right: 2%;
+  border-left: 1px solid #efefef;
+
+}
+#nav-accordion .nav-dropdown .page .next {
+    margin-top: 0px;
+}
+
+
+#nav-accordion .nav-dropdown .page .breadcrumb {
+  margin-bottom: 3ex;
+
+}
+#nav-accordion .nav-dropdown .page .column-list {
+  margin-bottom: 40px;
+}
+
+
+
+
+h6, .h6 {
+color: #586772;
+font-size: 12px;
+}
+
+.col-fifth a {
+font-size: 13px;
+
+} 
+
+
+#nav-accordion .nav-dropdown .page .column-list > .col-fifth :fisrt-child{   
+  width: 75%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.col-fifth > a :first-child {
+   
+  width: 75%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+#nav-accordion .nav-dropdown .page .column-list > .col-fifth  {
+  list-style: none;
+  padding-left: 1em;
+padding-right:1em;
+  border-left: 1px solid #edeff0;
+  width: 20%;
+  margin-top: 0px;
+}
+
+
+.container > .nav {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+#nav-accordion .nav-dropdown .page .column-list > ul:first-child {
+padding: 0px 10px 0 6px;
+border-left:0;
+}
+
+
+#nav-accordion .nav-dropdown .page .column-list > ul:first-child {
+padding: 0px 10px 0 6px;
+border-left:0;
+}
+
+#nav-accordion .nav-dropdown .page h6 {
+  padding: 1ex .6em 0;
+/* for left-aligning second level menu items */
+  padding-left: 0px;
+
+  
+}
+
+.background {
+  padding-bottom: 2%;
+  margin-top: -40px;
+}
+
+
+
+.nav-dropdown a {
+  font-weight: 300;
+}
+
+.iamenuitems{
+  margin-right: 0px;
+  margin-left: 14em;
+  max-width:100% !important;
+}
+
+/* App-218* Iteration ApolloR2.5-Iteration2 */
+#nav-accordion .nav-dropdown .page .column-list > .col-fifth  {
+ Width:18%
+}
+
+
+.globalHeaderbackground {
+
+    padding-bottom: 15px;
+
+    padding-left: 0px !important;
+
+    font-family: robotoregular;
+
+}
+
+ 
+
+#nav-accordion .nav-dropdown .page .column-list {
+
+    margin-bottom: 30px !important;
+
+    overflow: hidden;
+
+}
+
+ 
+
+#nav-accordion .nav-dropdown {
+
+    padding-bottom: .8em;
+
+}
+
